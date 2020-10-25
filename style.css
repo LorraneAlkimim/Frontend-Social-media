@@ -101,22 +101,25 @@ main div#main-post p {
   font-weight: 300;
 }
 
-i + i {
+a {color: var(--text-color);}
+
+a + a {
   margin-left: 1.5rem;
 }
-main div#main-post i.fa-linkedin:hover {
+
+main div#main-post a i.fa-linkedin:hover {
   color: #0e76a8;
   transition: 0.2s;
 }
-main div#main-post i.fa-pinterest-p:hover {
+main div#main-post a i.fa-pinterest-p:hover {
   color: #c8232c;
   transition: 0.2s;
 }
-main div#main-post i.fa-twitter:hover {
+main div#main-post a i.fa-twitter:hover {
   color: #54a4d6;
   transition: 0.2s;
 }
-main div#main-post i.fa-facebook-f:hover {
+main div#main-post a i.fa-facebook-f:hover {
   color: #3b5998;
   transition: 0.2s;
 }
